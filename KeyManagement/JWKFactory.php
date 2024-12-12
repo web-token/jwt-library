@@ -134,7 +134,7 @@ class JWKFactory
     }
 
     /**
-     * Creates a none key with the given additional values. Please note that this key type is not pat of any
+     * Creates a none key with the given additional values. Please note that this key type is not part of any
      * specification. It is used to prevent the use of the "none" algorithm with other key types.
      *
      * @param array<string, mixed> $values values to configure the key
