@@ -13,6 +13,7 @@ use RuntimeException;
 use function extension_loaded;
 use function in_array;
 use function is_string;
+use function sprintf;
 use const OPENSSL_RAW_DATA;
 
 abstract readonly class AESGCMKW implements KeyWrapping

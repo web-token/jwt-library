@@ -9,6 +9,7 @@ use Jose\Component\Core\JWK;
 use function in_array;
 use function is_array;
 use function is_string;
+use function sprintf;
 
 /**
  * @internal

@@ -19,6 +19,7 @@ use Jose\Component\Encryption\Algorithm\KeyEncryption\KeyWrapping;
 use Jose\Component\Encryption\Algorithm\KeyEncryptionAlgorithm;
 use Throwable;
 use function is_string;
+use function sprintf;
 use function strlen;
 
 class JWEDecrypter

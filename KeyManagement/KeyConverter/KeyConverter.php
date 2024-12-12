@@ -23,6 +23,7 @@ use function extension_loaded;
 use function in_array;
 use function is_array;
 use function is_string;
+use function sprintf;
 use const E_ERROR;
 use const E_PARSE;
 use const OPENSSL_KEYTYPE_EC;

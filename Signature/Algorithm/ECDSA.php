@@ -15,6 +15,7 @@ use Throwable;
 use function defined;
 use function extension_loaded;
 use function in_array;
+use function sprintf;
 
 abstract readonly class ECDSA implements SignatureAlgorithm
 {

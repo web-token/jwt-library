@@ -6,6 +6,7 @@ namespace Jose\Component\Checker;
 
 use function array_key_exists;
 use function count;
+use function sprintf;
 
 /**
  * This class manages claim checkers and performs claim checks.

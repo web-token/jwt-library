@@ -6,6 +6,7 @@ namespace Jose\Component\Core;
 
 use InvalidArgumentException;
 use function array_key_exists;
+use function sprintf;
 
 final class AlgorithmManager
 {

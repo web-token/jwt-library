@@ -14,6 +14,7 @@ use function assert;
 use function extension_loaded;
 use function in_array;
 use function is_string;
+use function sprintf;
 
 final readonly class EdDSA implements SignatureAlgorithm
 {

@@ -18,6 +18,7 @@ use function array_key_exists;
 use function extension_loaded;
 use function is_array;
 use function is_string;
+use function sprintf;
 use function strlen;
 use const JSON_THROW_ON_ERROR;
 use const OPENSSL_KEYTYPE_RSA;

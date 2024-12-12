@@ -23,6 +23,7 @@ use function function_exists;
 use function in_array;
 use function is_array;
 use function is_string;
+use function sprintf;
 use function strlen;
 
 abstract readonly class AbstractECDH implements KeyAgreement

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Jose\Component\Encryption\Serializer;
 
 use InvalidArgumentException;
+use function sprintf;
 
 final class JWESerializerManagerFactory
 {

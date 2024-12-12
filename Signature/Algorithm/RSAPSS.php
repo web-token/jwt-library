@@ -10,6 +10,7 @@ use Jose\Component\Core\Util\RSAKey;
 use Jose\Component\Signature\Algorithm\Util\RSA as JoseRSA;
 use Override;
 use function in_array;
+use function sprintf;
 
 abstract readonly class RSAPSS implements SignatureAlgorithm
 {

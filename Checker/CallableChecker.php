@@ -8,6 +8,7 @@ use InvalidArgumentException;
 use Override;
 use function call_user_func;
 use function is_callable;
+use function sprintf;
 
 /**
  * This class is responsible for checking claims and headers using a callable function.

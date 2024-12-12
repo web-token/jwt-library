@@ -12,8 +12,6 @@ use Exception;
 class MissingMandatoryClaimException extends Exception implements ClaimExceptionInterface
 {
     /**
-     * MissingMandatoryClaimException constructor.
-     *
      * @param string[] $claims
      */
     public function __construct(

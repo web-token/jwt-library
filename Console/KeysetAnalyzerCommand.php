@@ -19,6 +19,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use function is_array;
 use function is_string;
+use function sprintf;
 
 #[AsCommand(name: 'keyset:analyze', description: 'JWKSet quality analyzer.',)]
 final class KeysetAnalyzerCommand extends Command

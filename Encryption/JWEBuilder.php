@@ -22,6 +22,7 @@ use RuntimeException;
 use function array_key_exists;
 use function count;
 use function is_string;
+use function sprintf;
 
 class JWEBuilder
 {
